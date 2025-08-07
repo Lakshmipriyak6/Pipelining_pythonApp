@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from tensorflow.keras.models import Sequential
@@ -18,3 +17,4 @@ def train_model():
     model.fit(X, y, epochs=1000, verbose=0)
 
     return model
+
